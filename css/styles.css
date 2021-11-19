@@ -87,10 +87,6 @@ body {
   list-style: none;
 }
 
-.link {
-  text-decoration: none;
-}
-
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -116,6 +112,10 @@ body {
 
 .header-link.current {
   color: var(--accent-color);
+}
+
+.link {
+  text-decoration: none;
 }
 
 .header-link {
