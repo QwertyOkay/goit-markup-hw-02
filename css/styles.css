@@ -97,10 +97,6 @@ body {
   text-align: center;
 }
 
-.current {
-  color: var(--header-text-color);
-}
-
 /*-----------HEADER-------------*/
 
 .header {
@@ -114,12 +110,19 @@ body {
   display: flex;
 }
 
+.current {
+  color: var(--header-text-color);
+}
+
+.header-link.current {
+  color: var(--accent-color);
+}
+
 .header-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--second-title-color);
   padding-top: 32px;
   padding-bottom: 32px;
 }
