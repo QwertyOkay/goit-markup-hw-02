@@ -56,7 +56,7 @@ img {
 }
 
 .container {
-  width: 1200px;
+  width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -197,6 +197,7 @@ body {
   padding: 10px 30px;
   margin-left: auto;
   margin-right: auto;
+  width:auto;
 }
 
 .main-title {
@@ -242,6 +243,10 @@ body {
 
 .ourteam-content {
   padding-top: 30px;
+}
+
+.ourteam-content:last-child {
+  margin-right: 0;
 }
 
 .ourteam-after-title {
@@ -293,6 +298,7 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  justify-content: center;
   letter-spacing: 0.03em;
   color: var(--main-title-color);
   cursor: pointer;
@@ -313,11 +319,13 @@ body {
   cursor: pointer;
   border-radius: 4px;
   border: 0;
+  justify-content: center;
   text-align: center;
   color: var(--main-title-color);
   background-color: var(--header-text-color);
   font-style: var(--main-title-color);
-  margin-right: 8px;
+  width: auto;
+  
 }
 
 .main-site-section {
@@ -381,6 +389,10 @@ body {
   margin-bottom: auto;
 }
 
+.aboutus-item:last-child {
+  padding-right: 0;
+}
+
 .ourteam {
   background: var(--ourteam-section);
 }
@@ -395,12 +407,23 @@ body {
   flex-wrap: wrap;
   margin-right: -30px;
   margin-bottom: -30px;
+  justify-content: center;
+}
+
+.ourteam-list:last-child {
+  margin-right: 0;
 }
 
 .ourteam-emp {
   flex-basis: calc((100% - 4 * 4 * 30px) / 3);
   margin-right: 30px;
-  margin-bottom: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.ourteam-emp:last-child {
+  margin-right: 0;
 }
 
 .ourteam-general-title {
@@ -432,6 +455,7 @@ body {
 
 .ourteam-emp {
   background-color: var(--main-title-color);
+  border: 1px solid #eeeeee;
 }
 
 /*----------FOOTER---------------*/
@@ -535,7 +559,7 @@ body {
   border-radius: 4px;
   padding: 6px 22px;
   height: 38px;
-  min-width: 73px
+  min-width: 73px;
 }
 
 .portfolio-btn:hover {
@@ -554,10 +578,20 @@ body {
 .buttons-list {
   padding-bottom: 34px;
   padding-top: 94px;
+  padding-right: 0;
   list-style-type: none;
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  line-height: 1.62;
+  margin-bottom: 34px;
+  width:auto;
+}
+
+.buttons-list-item:last-child {
+  margin-right: 0;
 }
 
 .buttons-list-item {
@@ -565,6 +599,8 @@ body {
   flex-basis: calc((100% - 5 * 5 * 30px) / 4);
   margin-right: 8px;
   margin-bottom: auto;
+   border-radius: 4px;
+  background-color: var(--accent-color);
 }
 
 .portfolio-list {
