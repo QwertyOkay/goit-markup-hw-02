@@ -122,7 +122,7 @@ body {
 .header {
   padding-top: 25px;
   padding-bottom: 25px;
-  border: 1px solid var(--border-header-color)
+  border: 1px solid var(--border-header-color);
 }
 
 .header-contacts-list {
@@ -324,7 +324,7 @@ body {
   background-color: var(--header-text-color);
   font-style: var(--main-title-color);
   margin-left: auto;
-    margin-right: auto;
+  margin-right: auto;
 }
 
 .main-site-section {
@@ -425,6 +425,11 @@ body {
   margin-right: 0;
 }
 
+.ourteam-emp {
+  background-color: var(--main-title-color);
+  border: 1px solid #eeeeee;
+}
+
 .ourteam-general-title {
   font-weight: bold;
   font-size: 36px;
@@ -450,11 +455,6 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--first-text-color);
-}
-
-.ourteam-emp {
-  background-color: var(--main-title-color);
-  border: 1px solid #eeeeee;
 }
 
 /*----------FOOTER---------------*/
@@ -546,7 +546,7 @@ body {
 /*---------PORTFOLIO----------*/
 
 .portfolio-btn {
-display: inline;
+  display: inline;
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
@@ -587,7 +587,6 @@ display: inline;
   letter-spacing: 0.03em;
   line-height: 1.62;
   margin-bottom: 34px;
- 
 }
 
 .buttons-list-item:last-child {
@@ -596,7 +595,7 @@ display: inline;
 
 .buttons-list-item {
   display: flex;
-  flex-basis: calc((100% - 5 * 5 * 30px) / 4);
+
   margin-right: 8px;
   margin-bottom: auto;
   border-radius: 4px;
