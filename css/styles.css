@@ -17,11 +17,7 @@
 html {
   box-sizing: border-box;
 }
-*,
-*::after,
-*::before {
-  box-sizing: inherit;
-}
+
 
 p,
 h1,
@@ -376,10 +372,15 @@ body {
   flex-basis: calc(100% / 3 - 30px);
   margin-right: auto;
   margin-bottom: auto;
+
+}
+
+.about-us-list:last-child {
+  margin-right: 0;
 }
 
 .aboutus-item:last-child {
-  padding-right: 0;
+  margin-right: 0;
 }
 
 .ourteam {
@@ -393,6 +394,10 @@ body {
   list-style: none;
 }
 
+.ourteam-list:last-child {
+  margin-right: 0;
+}
+
 .ourteam-emp {
   flex-basis: calc((100% - 4 * 4 * 30px) / 3);
   margin-right: 30px;
@@ -403,13 +408,10 @@ body {
   border: 1px solid #eeeeee;
 }
 
-.ourteam-list:last-child {
-  margin-right: 0;
-}
-
 .ourteam-emp:last-child {
   margin-right: 0;
 }
+
 
 .ourteam-general-title {
   font-weight: bold;
